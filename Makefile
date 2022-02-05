@@ -1,9 +1,9 @@
 .PHONY: build
 
-REPO= github.com/ca-gip/hackathon-api
+REPO= https://github.com/srigano/hackathon-api
 IMAGE= hackathon-api
 TAG= dev
-DOCKER_REPO= cagip
+DOCKER_REPO= europe-west3-docker.pkg.dev/cagip-hackathon-eq03-inno0/hackathon
 
 dependency:
 	go mod vendor
